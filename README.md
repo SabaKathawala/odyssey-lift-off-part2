@@ -41,10 +41,10 @@ For any issues or problems concerning the course content, please refer to the [O
 - You can read more at [Data Sources - Apollo GraphQL Docs](https://www.apollographql.com/docs/apollo-server/data/data-sources/).
 
 ## What we learned:
-AST: Abstract Syntax Trees
-N+1 problem
-GraphQL vs REST: When to use 
-Using _ as convention for 
-DataSources - how caching works and improves performance
-
+- AST: Abstract Syntax Trees
+- N+1 problem
+- GraphQL vs REST: When to use 
+- Using _ as convention for unused arguments
+- DataSources - how caching works and improves performance
+- Best practices for writing Query Resolvers
 As a best practice, when working on your resolvers and data sources, try to keep resolver functions as thin as possible. By doing so, you make your API more resilient to future changes. You can safely refactor your data fetching code, or change the source entirely from a REST API to a database, without breaking your API. This also keeps your resolvers readable and easier to understand, which comes in handy as you define more and more of them!
